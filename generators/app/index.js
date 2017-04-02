@@ -57,11 +57,4 @@ module.exports = class extends Generator {
 		this.log('Installing dependencies...')
 		this.yarnInstall()
 	}
-
-	populateProject() {
-		this.fs.copyTpl(
-			this.templatePath('.gitignore'),
-			this.destinationPath('.gitignore')
-		)
-	}
 }
