@@ -1,6 +1,6 @@
 {
   "name": "generator-webpack-sass",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A generator for webpack and sass websites. Also includes ES6 support",
   "author": "Corrado Canepari <caneparicorrado@outlook.it>",
   "license": "ISC",
